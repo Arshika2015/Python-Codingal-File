@@ -1,0 +1,8 @@
+def from_binary(binary):
+    binary = binary[::-1]
+    d = 0
+    power = 0
+    for i in binary:
+        d+= int(i)*(2**power)
+        power+=1
+        return d
