@@ -1,0 +1,5 @@
+def total(billamount,tiperc):
+    totalbill = billamount * (1+0.01*tiperc)
+    totalbill = round(totalbill,2)
+    print("please pay the ",totalbill)
+total(500,20)
