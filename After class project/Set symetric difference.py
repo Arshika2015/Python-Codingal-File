@@ -8,3 +8,5 @@ set_a = {"apple", "banana", "cherry"}
 set_b = {"google", "microsoft", "apple"}
 symmetric_diff_example = set_a.symmetric_difference(set_b)
 print(f"Symmetric difference of set_a and set_b: {symmetric_diff_example}")
+
+
