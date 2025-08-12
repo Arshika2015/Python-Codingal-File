@@ -48,6 +48,7 @@ while playagain == "yes" or playagain == "y" or playagain == "Yes":
     pick()
     print("do you want to play again?")
     playagain=input()
+    print("thank you")
 
 
 
