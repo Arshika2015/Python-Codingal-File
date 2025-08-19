@@ -6,5 +6,3 @@ class point:
         return "({0},{1})".format(self.x,self.y)
 python = point(120,450)
 print(python)
-        
-
